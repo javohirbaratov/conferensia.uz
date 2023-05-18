@@ -55,7 +55,7 @@
 			if($this->query($sql)){
 				return 200;
 			}else{
-				return $sql;
+				return 409;
 			}
 		}
 }

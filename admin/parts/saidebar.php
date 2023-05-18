@@ -1,9 +1,9 @@
 <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="home.php">
+            <a class="nav-link" href="users.php">
               <i class="mdi mdi-grid-large menu-icon"></i>
-              <span class="menu-title">Home</span>
+              <span class="menu-title">Ro'yhatdan o'tganlar</span>
             </a>
           </li>
           <li class="nav-item">
