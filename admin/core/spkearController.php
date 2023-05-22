@@ -28,12 +28,12 @@
 			if($fileSize/(1024*1024) <= 7){
 				if(move_uploaded_file($fileTmpPath,$manzil)){
 	
-					$sql = "INSERT INTO ".$this->table." (`fio`,`email`,`otm`,`mavzu`,`rasm`) values ('$fio','$email','$otm','$mavzu','$newFileName')";
+					$sql = "INSERT INTO ".$this->table." (`fio`,`email`,`otm`,`mavzu`,`rasm`,`davlat`) values ('$fio','$email','$otm','$mavzu','$newFileName','$davlat')";
 			
 					if($this->query($sql)){
 						return 200;
 					}else{
-                        return 409;
+                        return $sql;
                     }
 
 				}else{

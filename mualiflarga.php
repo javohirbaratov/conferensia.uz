@@ -1,6 +1,9 @@
 <?php
     require_once 'parts/head.php';
-?>
+    require_once 'admin/core/txtController.php';
+	$obj = new Txt();
+	$mualif = $obj->selectOne("category","mualif");
+	?>
 
 <body>
 	<div class="boxed_wrapper">
@@ -30,13 +33,8 @@
 			                <div class="sec-title">
 								<h2 class="left">Mualiflarga ta'luqli</h2>
 								<p>
-                                    Tashkiliy va boshqaruv qo'mitalari nomidan sizni 17-2023 oktyabr kunlari gibrid rejimda bo'lib o'tadigan axborot-kommunikatsiya texnologiyalarini 
-                                    qo'llash bo'yicha 28-IEEE xalqaro konferentsiyasiga (AICT20) 2023-ga taqdim etishingizni xush kelibsiz.
-                                    AICT2023 ADA universiteti, Jorj Vashington universiteti, Politecnico di Torino va IEEE Ozarbayjon Qo'shma bo'limi tomonidan tashkil etilgan 
-                                    va texnik jihatdan elektrotexnika va elektronika muhandislari instituti (IEEE) tomonidan homiylik qilingan. AICT2023 asosiy ma'ruzalar, o'quv 
-                                    qo'llanmalari va tadqiqot taqdimotlarini taqdim etadi. Taqdim etilgan hujjatlarda zamonaviy texnologiyalar, nazariy tushunchalar, standartlar, 
-                                    mahsulotlarni joriy etish, amalga oshirilayotgan ilmiy loyihalar, shuningdek, AKTni qo'llash masalalari qamrab olinishi kutilmoqda. Avvalgi AICT-da 70 dan ortiq
-                                     okruglardan yuzlab ishtirokchilar qatnashgan.
+									<?=$mualif['txt']?>
+                                    
                                 </p>
 							</div>
 

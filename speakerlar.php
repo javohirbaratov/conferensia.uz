@@ -1,5 +1,8 @@
 <?php
     require_once 'parts/head.php';
+	require_once 'admin/core/spkearController.php';
+	$obj = new Speaker();
+	$speaker = $obj->select();
 ?>
 
 <body>
@@ -23,79 +26,19 @@
         <section class="our-team style-two">
 			<div class="container">
 				<div class="row">
+					<?php 
+						foreach($speaker as $key => $val){
+					?>
 					<div class="col-md-3 col-sm-6 col-xs-12">
 						<div class="single-team">
-		                    <img src="images/team/team-1.jpg" alt="">
+		                    <img src="admin/userimg/<?=$val['rasm']?>" alt="">
 		                        <div class="team-content">
-		                            <h3 class="title">David Nicholson</h3>
-		                        <span class="post">Business Consultant</span>
+		                            <h3 class="title"><?=$val['fio']?></h3>
+		                        <span class="post"><?=$val['otm']?></span>
 		                    </div>
 	                    </div>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12">
-						<div class="single-team">
-		                    <img src="images/team/team-2.jpg" alt="">
-		                        <div class="team-content">
-		                            <h3 class="title">David Nicholson</h3>
-		                        <span class="post">Business Consultant</span>
-		                    </div>
-	                    </div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12">
-						<div class="single-team">
-		                    <img src="images/team/team-3.jpg" alt="">
-		                        <div class="team-content">
-		                            <h3 class="title">David Nicholson</h3>
-		                        <span class="post">Business Consultant</span>
-		                    </div>
-	                    </div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12">
-						<div class="single-team">
-		                    <img src="images/team/team-4.jpg" alt="">
-		                        <div class="team-content">
-		                            <h3 class="title">David Nicholson</h3>
-		                        <span class="post">Business Consultant</span>
-		                    </div>
-	                    </div>
-					</div>
-					<div class="clearfix"></div>
-					<div class="col-md-3 col-sm-6 col-xs-12">
-						<div class="single-team">
-		                    <img src="images/team/team-4.jpg" alt="">
-		                        <div class="team-content">
-		                            <h3 class="title">David Nicholson</h3>
-		                        <span class="post">Business Consultant</span>
-		                    </div>
-	                    </div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12">
-						<div class="single-team">
-		                    <img src="images/team/team-2.jpg" alt="">
-		                        <div class="team-content">
-		                            <h3 class="title">David Nicholson</h3>
-		                        <span class="post">Business Consultant</span>
-		                    </div>
-	                    </div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12">
-						<div class="single-team">
-		                    <img src="images/team/team-3.jpg" alt="">
-		                        <div class="team-content">
-		                            <h3 class="title">David Nicholson</h3>
-		                        <span class="post">Business Consultant</span>
-		                    </div>
-	                    </div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12">
-						<div class="single-team">
-		                    <img src="images/team/team-1.jpg" alt="">
-		                        <div class="team-content">
-		                            <h3 class="title">David Nicholson</h3>
-		                        <span class="post">Business Consultant</span>
-		                    </div>
-	                    </div>
-					</div>
+					<?}?>
 				</div>		
 			</div>
 		</section>

@@ -13,6 +13,8 @@
                 </script>
             <?
         }else{
+            echo $back;
+            exit;
             ?>
                 <script>
                     alert('Hatolik yuz berdi')

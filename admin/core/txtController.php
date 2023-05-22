@@ -5,7 +5,7 @@
     class Txt extends Model{
 
         public $table = "txt";
-
+ 
         public function insert($arr){
 
             foreach ($arr as $key => $value) {
