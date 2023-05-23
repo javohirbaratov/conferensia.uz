@@ -1,22 +1,23 @@
 <?php
-    require_once '../core/spkearController.php';
-    if(isset($_POST['fio'])){
+    require_once '../core/sectionController.php';
+    if(isset($_POST['nomi'])){
 
-        $obj = new Speaker();
+        $obj = new Section();
         $back = $obj->update($_POST);
 
         if($back == 200){
             ?>
                 <script>
                     alert('Tahrirlandi')
-                    window.location.href="../speaker.php";
+                    window.location.href="../section.php";
                 </script>
             <?
         }else{
+           
             ?>
                 <script>
                     alert('Hatolik yuz berdi')
-                    window.location.href="../speaker.php";
+                    window.location.href="../section.php";
                 </script>
             <?
         }

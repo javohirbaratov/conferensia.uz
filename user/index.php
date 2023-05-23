@@ -53,9 +53,7 @@
                                       if($value['status'] == 1){
                                         echo "Qabul qilindi";
                                       }
-                                      if($value['status'] == 0){
-                                        echo "Ko'rib chiqilmoqda";
-                                      }
+                                      
                                       if($value['status'] == -1){
                                         echo "Rad qilindi";
                                       }
@@ -63,14 +61,14 @@
                                 </td>
                                 <td>
                                   <?php
-										if($value['status'] == 1){
-											echo "Siz endi bu faylni o'chirolmaysiz";
-										}else{
-                                  ?>
-                                    <a onclick=delet(<?=$value['id']?>)>
-                                        <button type="button" class="btn btn-danger">O'chirish</button>
-                                    </a>
-									<?php } ?>
+                                    if($value['status'] == 1){
+                                      echo "Siz endi bu faylni tahrirlolmaysiz";
+                                    }else{
+                                      ?>
+                                        <a href="fayl_update.php?id=<?=$value['id']?>">
+                                            <button type="button" class="btn btn-warning">Tahrirlash</button>
+                                        </a>
+                                    <?php } ?>
                                 </td>
                             </tr>
                             <?php } ?>

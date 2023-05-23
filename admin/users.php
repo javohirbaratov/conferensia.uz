@@ -29,7 +29,8 @@
                         <table class="table">
                         <thead>
                             <tr>
-                                <th>User</th>
+                                <th>F.I.O</th>
+                                <th>Email</th>
                                 <th>Otm</th>
                                 <th>Davlat</th>
                                 <th>Fayl</th>
@@ -47,6 +48,9 @@
                             <tr>
                                 <td>
                                   <?=$user['fio']?>
+                                </td>
+                                <td>
+                                  <?=$user['email']?>
                                 </td>
                                 <td>
                                   <?=$user['otm']?>

@@ -31,5 +31,18 @@
               </ul>
             </div>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#section" aria-expanded="false" aria-controls="section">
+              <i class="menu-icon mdi mdi-floor-plan"></i>
+              <span class="menu-title">Section</span>
+              <i class="menu-arrow"></i> 
+            </a>
+            <div class="collapse" id="section">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="add-section.php">Kiritish</a></li>
+                <li class="nav-item"> <a class="nav-link" href="section.php">Ko'rish</a></li>
+              </ul>
+            </div>
+          </li>
         </ul>
       </nav>

@@ -11,20 +11,9 @@
         <?php
             require_once 'parts/header.php';
         ?>
-        <section class="bredcrumb">
-			<div class="bg-image text-center" style="background-image: url('images/resources/banner.jpg');">
-				<h1>Speakerlar</h1>
-			</div>
-			<div class="">
-				<ul class= "middle">
-					<li><a href="index.php">Asosiy</a></li>
-					<li><a class="inner" href="#">Speakerlar</a></li>
-				</ul>
-			</div>
-		</section>
-        <!--Page Title Ends-->
         <section class="our-team style-two">
 			<div class="container">
+				<h1>Speakerlar</h1>
 				<div class="row">
 					<?php 
 						foreach($speaker as $key => $val){

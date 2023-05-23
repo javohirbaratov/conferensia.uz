@@ -11,17 +11,6 @@
         <?php
             require_once 'parts/header.php';
         ?>
-        <section class="bredcrumb">
-			<div class="bg-image text-center" style="background-image: url('images/resources/banner.jpg');">
-				<h1>Qumita</h1>
-			</div>
-			<div class="">
-				<ul class= "middle">
-					<li><a href="index.php">Asosiy</a></li>
-					<li><a class="inner" href="#">Qumita</a></li>
-				</ul>
-			</div>
-		</section>
 		
 		<section class="about">
 			<div class="container">

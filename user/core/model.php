@@ -58,7 +58,7 @@
 			}
 			$back = $this->query($sql);
 
-			return mysqli_fetch_assoc($back);
+			return mysqli_fetch_all($back,MYSQLI_ASSOC);
 		}
 		public function selectTable($tab){
 			

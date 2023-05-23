@@ -1,16 +1,16 @@
 <?php
     require_once 'model.php';
 
-    class User extends Model{
+    class Section extends Model{
 
-        public $table = "user";
+        public $table = "section";
 
         public function insert($post){
             foreach ($post as $key => $value){
 				$$key = $value;
 			}
 
-            $sql = "INSERT INTO ".$this->table." (`fio`,`davlat`,`otm`,`email`) values ('$fio','$davlat','$otm','$email')";
+            $sql = "INSERT INTO ".$this->table." (`nomi`) VALUES ('$nomi')";
 
             if($this->query($sql)){
                 return 200;
@@ -26,7 +26,7 @@
 				$$key = $value;
 			}
 
-			$sql = "UPDATE ".$this->table." SET fio='$fio', email='$email', davlat='$davlat', otm='$otm', mavzu='$mavzu' WHERE id=".$id;
+			$sql = "UPDATE ".$this->table." SET nomi='$nomi' WHERE id=".$id;
 
 			if($this->query($sql)){
 				return 200;

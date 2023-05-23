@@ -1,4 +1,4 @@
-<div class="crypto-top-strip crypto-bgcolor">
+		<div class="crypto-top-strip crypto-bgcolor">
             <div class="container">
                 <div class="row">
                     <aside class="col-md-6">
@@ -15,12 +15,7 @@
 		<div class="mainmenu-area stricky">
 		    <div class="container">
 		    	<div class="row">
-		    		<div class="col-md-2">
-						<div class="main-logo">
-							<a href="index.php">Conferensia</a>
-						</div>
-					</div>
-					<div class="col-md-7 menu-column">
+					<div class="col-md-9 menu-column">
 						<nav class="main-menu">
 				            <div class="navbar-header">     
 				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -33,7 +28,7 @@
 				            <div class="navbar-collapse collapse clearfix">
 				                <ul class="navigation clearfix">
 
-				                    <li class="current"><a href="index.php">Asosiy</a></li>                 
+				                    <li class="dropdown"><a href="index.php">Asosiy</a></li>                 
 				                    
 				                    <li class="dropdown "><a href="mualiflarga.php">Mualiflarga</a>
 										<!-- <ul>
@@ -51,12 +46,8 @@
 				                    </li>
 
 				                    <li class="dropdown"><a href="speakerlar.php">Speakerlar</a>
-										<!-- <ul>
-											<li><a href="shop.html">Products Page</a></li>
-											<li><a href="single-product.html">Single Product</a></li>
-											<li><a href="shop-cart-page.html">Cart Page</a></li>
-											<li><a href="shop-checkout.html">Checkout</a></li>
-										 </ul> -->
+				                    </li>
+									<li class="dropdown"><a href="users.php">Qatnashuvchilar</a>
 				                    </li>
 
 				                    <li class="dropdown"><a   href="registr.php">Ro'yhatdan o'tish</a>

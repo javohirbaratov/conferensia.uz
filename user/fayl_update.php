@@ -2,11 +2,21 @@
     include_once 'parts/head.php';
     session_start();
 
-    include_once '../admin/core/sectionController.php';
+    if(!isset($_GET['id'])){
+        echo "Notug'ri so'rov";
+        exit;
+    }
 
-    $obj = new Section();
+    include_once 'core/faylController.php';
+    
+    $obj = new Fayl();
+    
+    $id = $_GET['id'];
 
-    $section = $obj->select();
+    $fayl = $obj->selectBitta($id);
+
+    $section = $obj->selectTableOne('section');
+
 ?>
 <body>
   <div class="container-scroller">
@@ -26,12 +36,12 @@
                 <div class="card">
                     <div class="card-body">
                     <h4 class="card-title">Maqola yuklash</h4>
-                    <form action="send/sendFayl.php" method="POST" enctype="multipart/form-data" class="forms-sample">
+                    <form action="update/updateFayl.php" method="POST" enctype="multipart/form-data" class="forms-sample">
                         
                         <div class="form-group">
                             <label for="exampleInputConfirmPassword1">Nomi</label>
-                            <input required name="mavzu" type="text" class="form-control">
-                            <input required name="user_id" type="hidden" value="<?=$_SESSION['id']?>">
+                            <input required name="mavzu" type="text" class="form-control" value="<?=$fayl['mavzu']?>">
+                            <input required name="id" type="hidden" value="<?=$id?>">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputConfirmPassword1">Section</label>
@@ -46,7 +56,7 @@
                         </div>
                         <div class="form-group">
                             <label for="exampleInputConfirmPassword1">Maqola</label>
-                            <input required name="file" type="file" class="form-control" accept=".doc, .docx">
+                            <input required name="file" type="file" class="form-control" accept=".doc, .docx" >
                         </div>
                         <button type="submit" class="btn btn-primary me-2">Submit</button>
                     </form>
