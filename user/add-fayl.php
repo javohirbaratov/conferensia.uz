@@ -25,18 +25,18 @@
             <div class="col-md-12 grid-margin stretch-card">
                 <div class="card">
                     <div class="card-body">
-                    <h4 class="card-title">Maqola yuklash</h4>
+                    <h4 class="card-title">Articles Upload</h4>
                     <form action="send/sendFayl.php" method="POST" enctype="multipart/form-data" class="forms-sample">
                         
                         <div class="form-group">
-                            <label for="exampleInputConfirmPassword1">Nomi</label>
+                            <label for="exampleInputConfirmPassword1">Name</label>
                             <input required name="mavzu" type="text" class="form-control">
                             <input required name="user_id" type="hidden" value="<?=$_SESSION['id']?>">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputConfirmPassword1">Section</label>
                             <select name="section_id" class="form-control" id="exampleSelectGender">
-                                <option>Tanlang</option>
+                                <option>Choose</option>
                                 <?php 
                                    foreach($section as $key => $val){
                                 ?>
@@ -45,7 +45,7 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputConfirmPassword1">Maqola</label>
+                            <label for="exampleInputConfirmPassword1">File</label>
                             <input required name="file" type="file" class="form-control" accept=".doc, .docx">
                         </div>
                         <button type="submit" class="btn btn-primary me-2">Submit</button>

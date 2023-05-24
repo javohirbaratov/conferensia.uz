@@ -26,14 +26,14 @@
               <div class="col-lg-12 grid-margin stretch-card">
                 <div class="card">
                     <div class="card-body">
-                    <h4 class="card-title">Speakerlar</h4>
+                    <h4 class="card-title">Articles</h4>
                     <div class="table-responsive">
                         <table class="table">
                         <thead>
                             <tr>
-                                <th>Fayl</th>
+                                <th>File</th>
                                 <th>status</th>
-                                <th>Amallar</th>
+                                <th>Update</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -42,31 +42,31 @@
                           ?>
                             <tr>
                                 <td>
-                                  <a href="../admin/fayl/<?=$value['nomi']?>">FAYLNI KO"RISH</a>
+                                  <a href="../admin/fayl/<?=$value['nomi']?>">File see</a>
                                   
                                 </td>
                                 <td>
                                     <?php
                                       if($value['status'] == 0){
-                                        echo "Ko'rib chiqilmoqda";
+                                        echo "Under review";
                                       }
                                       if($value['status'] == 1){
-                                        echo "Qabul qilindi";
+                                        echo "Accepted";
                                       }
                                       
                                       if($value['status'] == -1){
-                                        echo "Rad qilindi";
+                                        echo "Rejected";
                                       }
                                     ?>
                                 </td>
                                 <td>
                                   <?php
                                     if($value['status'] == 1){
-                                      echo "Siz endi bu faylni tahrirlolmaysiz";
+                                      echo "You can no longer edit this file";
                                     }else{
                                       ?>
                                         <a href="fayl_update.php?id=<?=$value['id']?>">
-                                            <button type="button" class="btn btn-warning">Tahrirlash</button>
+                                            <button type="button" class="btn btn-warning">Update</button>
                                         </a>
                                     <?php } ?>
                                 </td>

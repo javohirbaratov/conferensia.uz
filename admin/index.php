@@ -1,5 +1,6 @@
 <?php 
     include_once 'parts/head.php';
+    include_once 'ximoya.php';
 ?>
 <body>
   <div class="container-scroller">

@@ -34,4 +34,40 @@
 				return 409;
 			}
 		}
+
+		public function check($arr){
+
+			foreach($arr as $key => $value){
+				$$key = $this->filtr($value);
+			} 
+			
+			$login = $arr['login'];
+			$parol = $arr['parol'];
+			$parol = md5($parol);
+			
+			$txt = " WHERE login='$login' AND parol='$parol'";
+			$sql = "SELECT * FROM admin".$txt;
+			$back = $this->query($sql);
+			
+			if($back)			
+				$user = mysqli_fetch_assoc($back);
+			
+			$back = [];
+			
+			if(isset($user['login']) AND isset($user['parol']) AND  $user['login']==$login AND $user['parol']==$parol){
+				$_SESSION['login'] = $user['login'];
+				$_SESSION['parol'] = $user['parol'];
+				$_SESSION['id'] = $user['id'];
+				$_SESSION['rol'] = 'user';
+			
+				$back+=['code' => 200];
+			}else{
+				$back+=['code' => $sql];
+				$_SESSION['_crf'] = md5(time());
+				$back+=['_crf' => $_SESSION['_crf']];
+			}
+			
+			return $back;
+			   
+		}
     }

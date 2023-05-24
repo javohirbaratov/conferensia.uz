@@ -19,7 +19,7 @@
 						
 						<div class="col-md-12 col-sm-12 col-xs-12">
 			                <div class="sec-title">
-								<h2 class="left">Qumita a'zolari</h2>
+								<h2 class="left">Sodales Committee</h2>
 								<p>
 									<?=$mualif['txt']?>
                                     

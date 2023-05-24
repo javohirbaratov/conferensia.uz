@@ -1,5 +1,6 @@
 <?php 
     include_once 'parts/head.php';
+    include_once 'ximoya.php';
     include_once 'core/txtController.php';
 
     $obj = new Txt();

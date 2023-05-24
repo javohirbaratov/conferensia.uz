@@ -1,17 +1,3 @@
-		<div class="crypto-top-strip crypto-bgcolor">
-            <div class="container">
-                <div class="row">
-                    <aside class="col-md-6">
-                        <ul class="crypto-userinfo">
-                            <li><i class="fa fa-envelope-o"></i> info@yourdomain.com</li>
-                            <li><i class="fa fa-phone"></i> +(333) 052 39876</li>
-                        </ul>
-                    </aside>
-                </div>
-            </div>
-        </div>
-
-		<!-- Menu -->
 		<div class="mainmenu-area stricky">
 		    <div class="container">
 		    	<div class="row">
@@ -28,9 +14,9 @@
 				            <div class="navbar-collapse collapse clearfix">
 				                <ul class="navigation clearfix">
 
-				                    <li class="dropdown"><a href="index.php">Asosiy</a></li>                 
+				                    <li class="dropdown"><a href="index.php">Home</a></li>                 
 				                    
-				                    <li class="dropdown "><a href="mualiflarga.php">Mualiflarga</a>
+				                    <li class="dropdown "><a href="mualiflarga.php">To the authors</a>
 										<!-- <ul>
 											<li><a href="about.html">about</a></li>
 											<li><a href="team.html">Team</a></li>
@@ -38,19 +24,19 @@
 										</ul> -->
 				                    </li>
 
-				                    <li class="dropdown"><a href="qumita.php">Qumita</a>
+				                    <li class="dropdown"><a href="qumita.php">Committee</a>
 				                        <!-- <ul>
 											<li><a href="service.html">Services</a></li>
 											<li><a href="service-single.html">Service Single</a></li>
 										</ul> -->
 				                    </li>
 
-				                    <li class="dropdown"><a href="speakerlar.php">Speakerlar</a>
+				                    <li class="dropdown"><a href="speakerlar.php">Speakers</a>
 				                    </li>
-									<li class="dropdown"><a href="users.php">Qatnashuvchilar</a>
+									<li class="dropdown"><a href="users.php">Participants</a>
 				                    </li>
 
-				                    <li class="dropdown"><a   href="registr.php">Ro'yhatdan o'tish</a>
+				                    <li class="dropdown"><a   href="registr.php">Registration</a>
 										<!-- <ul>
 											
 											<li><a href="blog-grid.html">Blog Grid</a></li>
@@ -65,9 +51,9 @@
 
 				                <ul class="mobile-menu clearfix">
 
-                                <li class="current"><a href="index-2.html">Asosiy</a></li>                 
+                                <li class="current"><a href="index.php">Home</a></li>                 
 				                    
-				                    <li class="dropdown "><a href="about.html">Mualiflarga</a>
+				                    <li class="dropdown "><a href="mualiflarga.php">To the authors</a>
 										<!-- <ul>
 											<li><a href="about.html">about</a></li>
 											<li><a href="team.html">Team</a></li>
@@ -75,14 +61,14 @@
 										</ul> -->
 				                    </li>
 
-				                    <li class="dropdown"><a href="#">Qumita</a>
+				                    <li class="dropdown"><a href="qumita.php">Committee</a>
 				                        <!-- <ul>
 											<li><a href="service.html">Services</a></li>
 											<li><a href="service-single.html">Service Single</a></li>
 										</ul> -->
 				                    </li>
 
-				                    <li class="dropdown"><a href="shop.html">Speakerlar</a>
+				                    <li class="dropdown"><a href="speakerlar.php">Speakers</a>
 										<!-- <ul>
 											<li><a href="shop.html">Products Page</a></li>
 											<li><a href="single-product.html">Single Product</a></li>
@@ -91,7 +77,7 @@
 										 </ul> -->
 				                    </li>
 
-				                    <li class="dropdown"><a href="#">Ro'yhatdan o'tish</a>
+				                    <li class="dropdown"><a href="registr.php">Registration</a>
 										<!-- <ul>
 											
 											<li><a href="blog-grid.html">Blog Grid</a></li>
@@ -108,7 +94,7 @@
 					<div class="col-md-3">
 						<div class="right-area">
 						   <div class="link_btn float_right">
-							   <a href="#" id="log" class="thm-btn">Ro'yhatdan o'tish</a>
+							   <a href="#" id="log" class="thm-btn">Registration</a>
 						   </div>
 						</div>	
 					</div>

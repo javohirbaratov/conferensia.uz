@@ -4,7 +4,8 @@
 <body>
   <div class="container-scroller">
     <?php 
-        include_once 'parts/navbar.php';
+    include_once 'ximoya.php';
+    include_once 'parts/navbar.php';
     ?>
     <!-- partial -->
     <div class="container-fluid page-body-wrapper">

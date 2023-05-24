@@ -1,4 +1,5 @@
 <?php 
+    include_once 'ximoya.php';
     include_once 'parts/head.php';
 
     if(!isset($_GET['id'])){

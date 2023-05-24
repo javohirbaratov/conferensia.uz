@@ -13,7 +13,7 @@
         ?>
         <section class="our-team style-two">
 			<div class="container">
-				<h1>Speakerlar</h1>
+				<h1>SPEAKERS</h1>
 				<div class="row">
 					<?php 
 						foreach($speaker as $key => $val){

@@ -14,7 +14,7 @@
 
 		<?php
 	}
-?>
+?> 
 
 <body>
 	<div class="boxed_wrapper">
@@ -26,7 +26,7 @@
 		<section class="contact_us">
 			<div class="container">   
                 <div class="sec-title text-center">
-                    <h2>Kirish</h2>
+                    <h2>LOG IN</h2>
                 </div>
                 <div class="default-form-area">
 					<form id="contact-form" name="contact_form" class="col-md-10 col-md-offset-1 default-form" action="user/send/login.php" method="post">
@@ -41,7 +41,7 @@
 							<div class="col-md-12 col-sm-12 col-xs-12">
 												
 								<div class="form-group style-two">
-									<input name="parol" type="password" name="form_name" class="form-control" value="" placeholder="parol" required="">
+									<input name="parol" type="password" name="form_name" class="form-control" value="" placeholder="password" required="">
 									<input name="_crf" type="hidden" value="<?=$_SESSION['_crf']?>" >
 								</div>
 							</div>							 											  
@@ -52,7 +52,7 @@
 								<button class="thm-btn thm-color" type="submit" data-loading-text="Please wait...">Kirish</button>
 							</div>
 						</div> 
-                        <a href="registr.php">RUYHATDAN O'TISH</a>
+                        <a href="registr.php">REGISTRATION</a>
 					</form>
 				</div>          
 			</div>

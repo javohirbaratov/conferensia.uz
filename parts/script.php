@@ -1,111 +1,37 @@
 <footer class="footer footer-classic">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3">
-						<div class="footer-text">
-							<a href="#">
-								<img src="images/footer/logo1.png" alt="logo">
-							</a>
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation.
-							</p>
-							<div class="social-icons">
-								<a href="#" class="btn btn-social btn-social-o twitter">
-									<i class="fa fa-twitter"></i>
-								</a>
-								<a href="#" class="btn btn-social btn-social-o linkedin">
-									<i class="fa fa-linkedin"></i>
-								</a>
-								<a href="#" class="btn btn-social btn-social-o facebook">
-									<i class="fa fa-facebook-f"></i>
-								</a>
-								<a href="#" class="btn btn-social btn-social-o skype">
-									<i class="fa fa-skype"></i>
-								</a>
-								<a href="#" class="btn btn-social btn-social-o pinterest">
-									<i class="fa fa-pinterest-p"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-2 col-md-2">
+					
+					<div class="col-xl-6 col-md-6">
 						<div class="links">
 							<h3>Links</h3>
 							<ul class="">
-								<li><a href="index-2.html">Home</a></li>
-								<li><a href="about.html">About Us</a></li>
-								<li><a href="service.html">Services</a></li>
-								<li><a href="shop.html">Our Shop</a></li>
-								<li><a href="blog-grid.html">Latest Blog</a></li>
+								<li><a href="index.php">Home</a></li>
+								<li><a href="mualiflarga.php">To the authors</a></li>
+								<li><a href="qumita.php">Committee</a></li>
+								<li><a href="speakerlar.php">Speakers</a></li>
+								<li><a href="users.php">Participants</a></li>
 							</ul>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-6">
 						<div class="location">
-							<h3>Location</h3>
+							<h3>Our address</h3>
 							<ul>
-								<li>Excepteur sint occaecat cupidat non proident sunt.</li>
-								<li><i class="fa fa-home"></i> 1201 Park Street, Fifth Avenue,</li>
-								<li><i class="fa fa-phone"></i> <a href="#">[88] 657 524 332</a></li>
-								<li><i class="fa fa-fax"></i> <a href="#">[837] 6340 23092 23</a></li>
-								<li><i class="fa fa-envelope"></i> <a href="mailto.html"> info@example.com </a></li>
+								<li></li>
+								<li><i class="fa fa-home"></i> University blv. 15</li>
+								<li><i class="fa fa-phone"></i> <a href="#">Hotline: +998 66 240 38 40</a></li>
+								<li><i class="fa fa-fax"></i> <a href="#">+998 66 239 17 00</a></li>
+								<li><i class="fa fa-envelope"></i> <a href="mailto.html"> devonxona@samdu.uz </a></li>
 							</ul>
 						</div>
 					</div>
-					<div class="col-md-4">
-						<div class="sidebar-wrapper">
-							<div class="single-sidebar">
-		                        <div class="wedgit-title">
-		                            <h3>Popular Post</h3>
-		                        </div>
-		                        <ul class="popular-post">
-		                            <li>
-		                                <div class="img-holder">
-		                                    <img src="images/blog/sidebar/popular-post-1.png" alt="Awesome Image">
-		                                    <div class="overlay-style-one">
-		                                        <div class="box">
-		                                            <div class="content">
-		                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-		                                            </div>
-		                                        </div>
-		                                    </div>
-		                                </div>
-		                                <div class="title-holder">
-		                                    <a href="#"><h5 class="post-title">11 Things You Need to Know About Bitcoin – Bare Facts</h5></a>
-		                                    <h6 class="post-date">December 14, 2017</h6>
-		                                </div>
-		                            </li>
-		                            <li>
-		                                <div class="img-holder">
-		                                    <img src="images/blog/sidebar/popular-post-2.png" alt="Awesome Image">
-		                                    <div class="overlay-style-one">
-		                                        <div class="box">
-		                                            <div class="content">
-		                                                <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
-		                                            </div>
-		                                        </div>
-		                                    </div>
-		                                </div>
-		                                <div class="title-holder">
-		                                    <a href="#"><h5 class="post-title">What Comes After the Crypto Concurrency Bubble?</h5></a>
-		                                    <h6 class="post-date">December 13, 2017</h6>
-		                                </div>
-		                            </li>
-		                        </ul>
-		                    </div>
-						</div>
-					</div>
+					
 				</div>
 				<!-- COPY RIGHT -->
 				<div class="copyright">
 					<hr>
-					<div class="row justify-content-center">
-						<div class="col-sm-12">
-							<div class="copyRight_text text-center">
-								<p> © 2018 <a href="#">Business TEMPLATE.</a>  All Copyright Reserved.</p>
-							</div>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 		</footer>

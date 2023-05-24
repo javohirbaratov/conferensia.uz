@@ -13,7 +13,7 @@
         ?>
 		<section class="about">
             <div class="container">
-                <h1>Qatnashuvchilar</h1> <br>
+                <h1>PARTICIPANTS</h1> <br>
                 <div class="item-list">
 					<div class="row">
 						
@@ -21,9 +21,9 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                    <th scope="col">F.I.O</th>
-                                    <th scope="col">Davlat</th>
-                                    <th scope="col">Ta'lim muassasi</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Country</th>
+                                    <th scope="col">Institutum</th>
                                     </tr>
                                 </thead>
                                 <tbody>

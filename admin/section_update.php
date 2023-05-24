@@ -1,5 +1,6 @@
 <?php 
     include_once 'parts/head.php';
+    include_once 'ximoya.php';
 
     if(!isset($_GET['id'])){
         echo "Notug'ri so'rov";
