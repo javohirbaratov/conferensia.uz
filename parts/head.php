@@ -17,4 +17,10 @@
 	.news-post-image{
 		width: 35% !important;
 	}
+	.slide-content-box h2{
+		color: white !important;
+	}
+	.slide-content-box p{
+		font-size: 2.5rem !important;
+	}
 </style>

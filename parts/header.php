@@ -94,7 +94,7 @@
 					<div class="col-md-3">
 						<div class="right-area">
 						   <div class="link_btn float_right">
-							   <a href="#" id="log" class="thm-btn">Registration</a>
+							   <a href="login.php" id="log" class="thm-btn">LOG IN</a>
 						   </div>
 						</div>	
 					</div>

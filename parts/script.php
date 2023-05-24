@@ -16,7 +16,7 @@
 					</div>
 					<div class="col-md-6">
 						<div class="location">
-							<h3>Our address</h3>
+							<h3>Contact</h3>
 							<ul>
 								<li></li>
 								<li><i class="fa fa-home"></i> University blv. 15</li>
