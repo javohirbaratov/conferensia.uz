@@ -14,4 +14,7 @@
     #log{
         font-size: 13px;
     }
+	.news-post-image{
+		width: 35% !important;
+	}
 </style>

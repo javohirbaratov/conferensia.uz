@@ -43,11 +43,11 @@
                                     <td><?=$value['otm']?></td>
                                     <td><?=$value['mavzu']?></td>
                                     <td>
-                                        <a onclick=delet(<?=$value['id']?>)>
-                                            <button type="button" class="btn btn-danger">O'chirish</button>
-                                        </a>
                                         <a href="speaker_update.php?id=<?=$value['id']?>">
                                             <button type="button" class="btn btn-warning">Tahrirlash</button>
+                                        </a>
+                                        <a onclick=delet(<?=$value['id']?>)>
+                                            <button type="button" class="btn btn-danger">O'chirish</button>
                                         </a>
                                     </td>
                                 </tr>

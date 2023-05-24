@@ -122,10 +122,12 @@
 					?>
 					<div class="single-team">
 	                    <img src="admin/userimg/<?=$val['rasm']?>"  alt="">
+						<a href="blog.php?id=<?=$val['id']?>">
 	                        <div class="team-content">
-	                            <h3 class="title"><?=$val['fio']?></h3>
-	                        <span class="post"><?=$val['otm']?></span>
-	                    </div>
+								<h3 class="title"><?=$val['fio']?></h3>
+								<span class="post"><?=$val['otm']?></span>
+							</div>
+						</a>
                     </div>
 					<?php } ?>  
 				</div>

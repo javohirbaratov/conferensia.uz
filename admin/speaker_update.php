@@ -52,6 +52,15 @@
                             <label for="exampleInputConfirmtxt1">Mavzusi</label>
                             <input required name="mavzu" type="txt" class="form-control" id="exampleInputConfirmPassword1" value="<?=$speaker['mavzu']?>">
                         </div>
+                        <div class="form-group">
+                            <label for="exampleInputConfirmtxt1">Batafsil</label>
+                            <textarea name="txt">
+                                <?=$speaker['batafsil']?>
+                            </textarea>
+                            <script>
+                                    CKEDITOR.replace( 'txt' );
+                            </script>
+                        </div>
                         <button type="submit" class="btn btn-primary me-2">Submit</button>
                     </form>
                     </div>

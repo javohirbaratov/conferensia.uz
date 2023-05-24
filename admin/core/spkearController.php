@@ -28,12 +28,12 @@
 			if($fileSize/(1024*1024) <= 7){
 				if(move_uploaded_file($fileTmpPath,$manzil)){
 	
-					$sql = "INSERT INTO ".$this->table." (`fio`,`email`,`otm`,`mavzu`,`rasm`,`davlat`) values ('$fio','$email','$otm','$mavzu','$newFileName','$davlat')";
+					$sql = "INSERT INTO ".$this->table." (`fio`,`email`,`otm`,`mavzu`,`rasm`,`davlat`,`batafsil`) values ('$fio','$email','$otm','$mavzu','$newFileName','$davlat','$txt')";
 			
 					if($this->query($sql)){
 						return 200;
 					}else{
-                        return $sql;
+                        return 409;
                     }
 
 				}else{
@@ -47,10 +47,10 @@
 		public function update($arr){
 
 			foreach ($arr as $key => $value){
-				$$key = $value;
+				$$key = $this->filtr($value);
 			}
 
-			$sql = "UPDATE ".$this->table." SET fio='$fio', email='$email', davlat='$davlat', otm='$otm', mavzu='$mavzu' WHERE id=".$id;
+			$sql = "UPDATE ".$this->table." SET fio='$fio', email='$email', davlat='$davlat', otm='$otm', mavzu='$mavzu', batafsil='$txt' WHERE id=".$id;
 
 			if($this->query($sql)){
 				return 200;
