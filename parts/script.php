@@ -1,41 +1,4 @@
-<footer class="footer footer-classic">
-			<div class="container">
-				<div class="row">
-					
-					<div class="col-xl-6 col-md-6">
-						<div class="links">
-							<h3>Links</h3>
-							<ul class="">
-								<li><a href="index.php">Home</a></li>
-								<li><a href="mualiflarga.php">To the authors</a></li>
-								<li><a href="qumita.php">Committee</a></li>
-								<li><a href="speakerlar.php">Speakers</a></li>
-								<li><a href="users.php">Participants</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="location">
-							<h3>Contact</h3>
-							<ul>
-								<li></li>
-								<li><i class="fa fa-home"></i> University blv. 15</li>
-								<li><i class="fa fa-phone"></i> <a href="#">Hotline: +998 66 240 38 40</a></li>
-								<li><i class="fa fa-fax"></i> <a href="#">+998 66 239 17 00</a></li>
-								<li><i class="fa fa-envelope"></i> <a href="mailto.html"> devonxona@samdu.uz </a></li>
-							</ul>
-						</div>
-					</div>
-					
-				</div>
-				<!-- COPY RIGHT -->
-				<div class="copyright">
-					<hr>
-					
-				</div>
-			</div>
-		</footer>
- 
+
 
 
 	<button class="scroll-top tran3s color2_bg">

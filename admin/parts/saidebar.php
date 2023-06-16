@@ -1,6 +1,18 @@
 <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
+            <a class="nav-link" href="sitedata.php">
+              <i class="mdi mdi-grid-large menu-icon"></i>
+              <span class="menu-title">Sayt ma'lumotlari</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.php">
+              <i class="mdi mdi-grid-large menu-icon"></i>
+              <span class="menu-title">Contact</span>
+            </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="users.php">
               <i class="mdi mdi-grid-large menu-icon"></i>
               <span class="menu-title">Ro'yhatdan o'tganlar</span>
@@ -43,6 +55,13 @@
                 <li class="nav-item"> <a class="nav-link" href="section.php">Ko'rish</a></li>
               </ul>
             </div>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="logout.php">
+              <i class="mdi mdi-logout menu-icon"></i>
+              <span class="menu-title">Chiqish</span>
+            </a>
           </li>
         </ul>
       </nav>

@@ -35,8 +35,8 @@
 				                    </li>
 									<li class="dropdown"><a href="users.php">Participants</a>
 				                    </li>
-
 				                    <li class="dropdown"><a   href="registr.php">Registration</a>
+
 										<!-- <ul>
 											
 											<li><a href="blog-grid.html">Blog Grid</a></li>
@@ -76,8 +76,8 @@
 											<li><a href="shop-checkout.html">Checkout</a></li>
 										 </ul> -->
 				                    </li>
-
 				                    <li class="dropdown"><a href="registr.php">Registration</a>
+				                    
 										<!-- <ul>
 											
 											<li><a href="blog-grid.html">Blog Grid</a></li>

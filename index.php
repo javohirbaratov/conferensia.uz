@@ -1,8 +1,14 @@
 <?php
     require_once 'parts/head.php';
 	require_once 'admin/core/spkearController.php';
+	require_once 'admin/core/saytDataController.php';
+	require_once 'admin/core/contactController.php';
 	$obj = new Speaker();
+	$obj2 = new Sayt();
+	$obj3 = new Contact();
 	$speaker = $obj->select();
+	$data = $obj2->selectOne();
+	$contact = $obj3->selectOne();
 ?>
 
 <body>
@@ -31,9 +37,9 @@
 							data-splitout="none"
 							data-start="700">
 							<div class="slide-content-box">
-								<h2>International conference of actual problems of <br> artificial intelligence and information technologies</h2>
+								<h2><?=$data['nomi']?></h2>
 								<p>
-									Samarkand State University named after Sharof Rashidov. <br>November 4-5, 2023
+									<?=$data['qisqacha']?>
 								</p>
 							</div>
 						</div>
@@ -53,8 +59,8 @@
 			                <div class="sec-title">
 								<h2 class="left">About the conference</h2>
 								<p>
-								Development of scientific relations with foreign higher education institutions, expansion of international cooperation, large-scale modern theoretical and scientific research on artificial intelligence and digital technologies within the framework of activities dedicated to the development and wide implementation of the field of artificial intelligence and digital technologies. In order to get acquainted with the scientific results of practical teaching methods, the conference "Actual problems of artificial intelligence and information technologies" was organized by the Samarkand State University named after Sharof Rashidov. Professors and teachers of prestigious foreign and Uzbek higher education institutions are scheduled to participate in the conference with lectures.
-                                </p>
+									<?=$data['batafsil']?>
+								</p>
 							</div>
 			                <ul class="about-links text-left">
 							</ul>
@@ -96,7 +102,44 @@
 				</div>
 			</div>
 		</section>	
-
+		<footer class="footer footer-classic">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-xl-6 col-md-6">
+						<div class="links">
+							<h3>Links</h3>
+							<ul class="">
+								<li><a href="index.php">Home</a></li>
+								<li><a href="mualiflarga.php">To the authors</a></li>
+								<li><a href="qumita.php">Committee</a></li>
+								<li><a href="speakerlar.php">Speakers</a></li>
+								<li><a href="users.php">Participants</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="location">
+							<h3>Contact</h3>
+							<ul>
+								<li></li>
+								<li><i class="fa fa-home"></i> <?=$contact['manzil']?></li>
+								<li><i class="fa fa-phone"></i> <a href="#"><?=$contact['telraqam2']?></a></li>
+								<li><i class="fa fa-fax"></i> <a href="#"><?=$contact['telraqam']?></a></li>
+								<li><i class="fa fa-envelope"></i> <a href="mailto.html"><?=$contact['email']?></a></li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+				<!-- COPY RIGHT -->
+				<div class="copyright">
+					<hr>
+					
+				</div>
+			</div>
+		</footer>
+ 
 <?php
     require_once 'parts/script.php';
 ?>
